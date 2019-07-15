@@ -1,0 +1,8 @@
+<!--pages/profile/profile.wxml-->
+<!-- 组件 开放能力 open-data -->
+<view class='profile'>
+  <open-data class="profile-img" type="userAvatarUrl"></open-data>
+<open-data class="profile-name" type="userNickName"></open-data>
+</view>
+
+<button class='but' open-type='getUserInfo' bindgetuserinfo="onGotUserInfo">获取用户信息</button>
